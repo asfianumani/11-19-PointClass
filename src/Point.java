@@ -24,7 +24,7 @@ public class Point
   }
   public double distance (Point p)
   {
-    double d=Math.sqrt(((x-p.x)*(x-p.x))+((y-p.y)+(y-p.y)));
+    double d=Math.sqrt(((x-p.x)*(x-p.x))+((y-p.y)*(y-p.y)));
     return d;
   }
   public String toString()
